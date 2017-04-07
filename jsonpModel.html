@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <!--豆瓣不支持angular中callback回调函数带点参数，自己实现jsonp方法-->
+    <script>
+        //url是请求的地址；
+        //arg请求页面需要的数据，在这里传递过来的是start:从第几个影片开始；count:一次传递几个，
+        // 是以object对象的形式传递；
+        //fn是请求成功后的回调函数；
+        function myJsonp(url, arg, fn) {
+            //将arg拼接到url后面，https://api.douban.com/v2/movie/in_theaters?start=2&count=5&、
+            var sumString = '';
+            for(var key in arg){
+                sumString += key + '=' + arg[key] + '&'
+            }
+                url = url + '?' + sumString;
+            // 给传递的匿名fn一个函数名；
+            //var myCallBack = fn;
+                //window.myCallBack = fn; //全局函数
+
+            /*myJsonp("https://api.douban.com/v2/movie/in_theaters",{start:2,count:5},function (data) {
+                console.log(111);
+            });
+            myJsonp("https://api.douban.com/v2/movie/in_theaters",{start:2,count:5},function (data) {
+                console.log(333);
+            });
+            避免出现这种重复调用函数时，同时加载，后面的数据会覆盖前面的，需要通过随机数来命名函数名；
+            */
+            var myCallBackName = 'jsonp_'+ Math.random().toString().substr(2);
+            //Math.random(),是数字的形式，函数不能一数字开头，前面加了字符jsonp;
+            //url中不能出现点，所有通过toString()转为字符串，substr(2)去掉前面两个字符串，就把点去掉；
+            //拼接CALLBACK函数；
+                //window[myCallBackName] = fn;
+            //在myJsonp()方法执行后，移除script标签；
+                window[myCallBackName] = function (data) {
+                    fn();
+                    document.body.removeChild(scriptEle);
+                };
+                url = url + 'callback=' + myCallBackName;/*(+后面需要函数名，方便调用函数;"mycallback"加字符串表示只需要这个函数名，不加的话，就是函数体了)*/
+
+            //动态创建script标签；
+            var scriptEle = document.createElement('script');
+            scriptEle.src = url;
+            document.body.appendChild(scriptEle);
+
+        }
+
+            //调用myJsonp方法；
+            for(var i = 0; i < 10; i++){
+                myJsonp("https://api.douban.com/v2/movie/in_theaters",
+                    {start:2,count:5},function (data) {
+                    console.log(111);
+                });
+
+            }
+
+    </script>
+</body>
+</html>

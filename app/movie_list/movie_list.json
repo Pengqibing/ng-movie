@@ -1,0 +1,144 @@
+{
+  "count": 2,
+  "start": 0,
+  "total": 27,
+  "subjects": [
+    {
+      "rating": {
+        "max": 10,
+        "average": 6.3,
+        "stars": "35",
+        "min": 0
+      },
+      "genres": [
+        "动作",
+        "科幻",
+        "犯罪"
+      ],
+      "title": "攻壳机动队",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1054453/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/37050.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/37050.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/37050.jpg"
+          },
+          "name": "斯嘉丽·约翰逊",
+          "id": "1054453"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1032805/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/img/celebrity/small/1366032638.59.jpg",
+            "large": "https://img1.doubanio.com/img/celebrity/large/1366032638.59.jpg",
+            "medium": "https://img1.doubanio.com/img/celebrity/medium/1366032638.59.jpg"
+          },
+          "name": "皮鲁·埃斯贝克",
+          "id": "1032805"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1054423/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/39452.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/39452.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/39452.jpg"
+          },
+          "name": "北野武",
+          "id": "1054423"
+        }
+      ],
+      "collect_count": 4114,
+      "original_title": "Ghost in the Shell",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1320096/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/52315.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/52315.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/52315.jpg"
+          },
+          "name": "鲁伯特·桑德斯",
+          "id": "1320096"
+        }
+      ],
+      "year": "2017",
+      "images": {
+        "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2453176400.jpg",
+        "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2453176400.jpg",
+        "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2453176400.jpg"
+      },
+      "alt": "https://movie.douban.com/subject/25818101/",
+      "id": "25818101"
+    },
+    {
+      "rating": {
+        "max": 10,
+        "average": 7.3,
+        "stars": "40",
+        "min": 0
+      },
+      "genres": [
+        "剧情"
+      ],
+      "title": "一念无明",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1002862/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/1161.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/1161.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/1161.jpg"
+          },
+          "name": "曾志伟",
+          "id": "1002862"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1041510/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/802.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/802.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/802.jpg"
+          },
+          "name": "余文乐",
+          "id": "1041510"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1319116/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/img/celebrity/small/50861.jpg",
+            "large": "https://img3.doubanio.com/img/celebrity/large/50861.jpg",
+            "medium": "https://img3.doubanio.com/img/celebrity/medium/50861.jpg"
+          },
+          "name": "方皓玟",
+          "id": "1319116"
+        }
+      ],
+      "collect_count": 619,
+      "original_title": "一念無明",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1324490/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/img/celebrity/small/59259.jpg",
+            "large": "https://img1.doubanio.com/img/celebrity/large/59259.jpg",
+            "medium": "https://img1.doubanio.com/img/celebrity/medium/59259.jpg"
+          },
+          "name": "黄进",
+          "id": "1324490"
+        }
+      ],
+      "year": "2016",
+      "images": {
+        "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2452970761.jpg",
+        "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2452970761.jpg",
+        "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2452970761.jpg"
+      },
+      "alt": "https://movie.douban.com/subject/26704590/",
+      "id": "26704590"
+    }
+  ],
+  "title": "正在上映的电影-北京"
+}
